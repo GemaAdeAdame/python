@@ -111,6 +111,7 @@ else:
 
   print ('Ya hemos salido del condicional')
 
+"""
 nota=int(input("Introduce tu nota:  "))
 if nota<5:
   print("Suspenso")
@@ -227,13 +228,13 @@ else:
  else:
   print("Puedes comprar el coche.")
 
-
+"""
 
 
   # DICCIONARIOS
 """Los diccionarios, también llamados matrices asociativas, deben su nombre a que son colecciones que relacionan una clave y un
 valor. Un diccionario es una colección desordenada, modificable e indexada. En Python, los diccionarios se escriben entre llaves y 
-tienen claves y valores."""
+tienen claves y valores.
 # Declaración de un diccionario
 # Declaración de un diccionario
 miDiccionario = {
@@ -351,4 +352,16 @@ myfamily = {
     "child2": child2,
     "child3": child3
 }
-print(myfamily["child1"])
+print(myfamily["child1"]) """
+
+
+nombre = input('Introduce tu nombre: ')
+# Salida
+print("Hola, " + nombre)
+print(type(nombre))
+
+# Entrada por parte del usuario como número entero
+num = int(input('Introduce un número: '))
+add = num+1
+# Salida
+print(add)
